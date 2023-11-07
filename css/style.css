@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width:  60%;
+    margin: 0 auto;
+    padding: 10px; 
+    border:  2px solid #60d394;
+    background: rgb(255,105,105);
+    background: linear-gradient(0deg, rgba(255,105,105,0.7539390756302521) 0%, rgba(9,59,57,1) 100%);
+    
+}
+.main{
+     width: 100%;
+     height: 1100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+.main__headline{
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    cursor: none;
+}
+.main__headline:hover{
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ee6055, #60d394, #4ca2cd, #d36060);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s linear infinite;
+  }
+  
+  @keyframes shimmer {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .pozdrovlenie{
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ee6055, #60d394, #4ca2cd, #d36060);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 3s linear infinite;
+  }
+  img{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+  }
